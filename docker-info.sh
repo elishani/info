@@ -14,7 +14,7 @@ docker run redis:4.0
 docker run -d redis
 # run with host port 
 docker run -d -p6000:6794 redis
-# ru with name
+# run with name
 docker run -d -p6000:6794 --name radis-old redis
 
 # stop instanse
